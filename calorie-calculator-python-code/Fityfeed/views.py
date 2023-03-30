@@ -131,3 +131,16 @@ def addFooditem(request):
     context={'form':form}
     return render(request,'addUserFooditem.html',context)
 
+
+def about(request):
+    return render(request,'About.html')
+
+def feedback(request):
+    return render(request,'feedback.html')
+
+def contact(request):
+    return render(request,'contactus.html')
+
+def main(request):
+    return render(request,'main.html')
+
