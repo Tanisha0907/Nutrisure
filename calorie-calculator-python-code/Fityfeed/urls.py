@@ -11,4 +11,9 @@ urlpatterns = [
     path('login/',views.loginPage,name='login'),
     path('logout/',views.logoutUser,name='logout'),
     path('addFooditem/',views.addFooditem,name='addFooditem'),
+    path('user/About.html',views.about,name='about'), #about us page
+    path('user/feedback.html',views.feedback,name='feedback'), #feedback form
+    path('user/contactus.html',views.contact,name='contact'), #contact us page
+    path('user/user.html',views.userPage,name='userPage'), #userPage
+    
 ]
